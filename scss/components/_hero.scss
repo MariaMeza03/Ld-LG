@@ -23,15 +23,15 @@
         flex-direction: column;
 
         @media(min-width:1199px){ //*table
-            @include flex-start-center;
+            @include flex-end-center;
         }
         
         h1{
-            color: $Meteorite;
+            color: $black;
             font-size: 25px;
             font-weight:bold;
             text-align: center;
-            font-family: Poppins-Bold;
+            font-family: Segoe-Bold;
             line-height: 32px;
 
             @media(min-width:768px){ //*phone
@@ -54,7 +54,7 @@
             font-size: 25px;
             font-weight:bold;
             text-align: center;
-            font-family: Poppins-Bold;
+            font-family: Segoe-Bold;
             line-height: 32px;
 
             @media(min-width:768px){ //*phone
@@ -72,12 +72,12 @@
                 font-size: 66px;
             }
             
-            color: $Bluish_Purple;
+            color: $Shiraz;
         }
 
         p{
             padding-top: 25px;
-            color: $Meteorite;
+            color: $black;
             font-size: 20px;
             text-align: center;
             line-height: 25px;
@@ -87,7 +87,7 @@
                 line-height: 32px;
             }
             @media(min-width:1199px){ //*table
-                text-align: start;
+                text-align: end;
             }
         }
 
@@ -101,14 +101,13 @@
 
             a{
                 width: 100%;
-                border: 2px solid $Bluish_Purple;
+                border: 2px solid $Shiraz;
                 margin-top: 30px;
-                background-color:$Bluish_Purple ;
-                font-family: Poppins-Bold;
+                background-color:$Shiraz;
+                font-family: Segoe-Bold;
                 padding: 20px 30px ;
                 color:white;
                 font-size: 15px;
-                border-radius: 20px;
                 text-align: center;
 
                 @media(min-width:300px){
@@ -123,8 +122,8 @@
 
             a:hover{
                 background-color:$white ;
-                color: $Bluish_Purple;
-                border: 2px solid $Bluish_Purple;
+                color: $Shiraz;
+                border: 2px solid $Shiraz;
             }
         }
     }

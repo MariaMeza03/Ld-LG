@@ -41,7 +41,7 @@
                     color: $Meteorite;
                     font-size: 15px;
                     padding: 3px;
-                    font-family: Poppins-Bold;
+                    font-family: Segoe-Bold;
             
                     @media(min-width: 1199px){
                         font-size: 18px;
@@ -57,7 +57,7 @@
         margin: auto;
         border-radius: 10px;
         background-color: $white;
-        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        box-shadow:rgba(0, 0, 0, 0.24) 0px 0px 0px 2px inset, white 16px 16px 0px -4px, #1fc11b 17px 17px, white 20px -20px 0px -3px;
         padding: 20px;
 
         &__imagen{
@@ -81,7 +81,7 @@
                 color: $Bluish_Purple;
                 font-size: 15px;
                 padding: 3px;
-                font-family: Poppins-Bold;
+                font-family: Segoe-Bold;
         
                 @media(min-width: 1199px){
                     font-size: 18px;
@@ -112,7 +112,7 @@
                     }
         
                     span{
-                        font-family: Poppins-Bold;
+                        font-family: Segoe-Bold;
                     }
                 }
 

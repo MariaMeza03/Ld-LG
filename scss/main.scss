@@ -28,29 +28,15 @@
 @import 'components/aviso-de-privacidad';
 
 @font-face {
-	font-family:  Poppins-Regular;
-	src: url('../fonts/Poppins-Regular.ttf') format('truetype');
+	font-family:  Segoe-Regular;
+	src: url('../fonts/Segoe-UI.ttf') format('truetype');
 	font-display: swap;
 
   }
 
   @font-face {
-	font-family:  Poppins-Bold;
-	src: url('../fonts/Poppins-Bold.ttf') format('truetype');
-	font-display: swap;
-
-  }
-
-  @font-face {
-	font-family: Poppins-Bold;
-	src: url('../fonts/Poppins-Bold.ttf') format('truetype');
-	font-display: swap;
-
-  }
-
-  @font-face {
-	font-family: Poppins-Regular;
-	src: url('../fonts/Poppins-Regular.ttf') format('truetype');
+	font-family:  Segoe-Bold;
+	src: url('../fonts/Segoe-UI-Bold.ttf') format('truetype');
 	font-display: swap;
 
   }
@@ -58,7 +44,7 @@
 
   
 *{
-	font-family: Poppins-Regular;
+	font-family: Segoe-Regular;
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;

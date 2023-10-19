@@ -49,10 +49,6 @@
 
     &__content{
         @include flex-center-center;
-        background-image: url('../../img/fondo-serv-espe.webp');
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
         flex-direction: column;
         padding: 30px;
         border-radius: 20px;
@@ -63,10 +59,10 @@
             flex-direction: column;
 
             h1{
-                color: $white;
+                color: $Shiraz;
                 font-size: 20px;
                 text-align: center;
-                font-family: Poppins-Bold;
+                font-family: Segoe-Bold;
                 
                 @media(min-width:768px){
                     font-size: 25px;
@@ -83,7 +79,7 @@
 
             p{
                 padding-top: 15px;
-                color: $white;
+                color: black;
                 font-size: 15px;
                 text-align: center;
         
@@ -113,14 +109,14 @@
     
             &__item{
                 height: auto;
-                @include flex-center-start;
+                @include flex-center-end;
                 flex-direction: column;
-                background-color: $white;
+                background-color: $harp;
                 padding: 20px;
                 border-radius: 20px;
     
                 @media(min-width: 1199px){
-                    @include flex-center-start;
+                    @include flex-center-end;
                 }
 
     
@@ -129,8 +125,8 @@
                     h1{
                         font-weight: normal;
                         width: 100%;
-                        color: $Bluish_Purple_two;
-                        font-family: Poppins-Bold;
+                        color: $Shiraz;
+                        font-family: Segoe-Bold;
                         font-size: 15px;
                         text-align: center;
                         padding: 15px;
@@ -166,7 +162,7 @@
                 width: 100%;
                 @include flex-center-between;
                 flex-direction: column;
-                background-color: $white;
+                background-color: $harp;
                 padding: 20px;
                 border-radius: 20px;
                 height: 350px;
@@ -177,8 +173,8 @@
                     h1{
                         font-weight: normal;
                         width: 100%;
-                        color: $Bluish_Purple_two;
-                        font-family: Poppins-Bold;
+                        color: $Shiraz;
+                        font-family: Segoe-Bold;
                         font-size: 15px;
                         text-align: center;
                         padding-bottom: 10px;
@@ -214,19 +210,6 @@
             }
     
         }
-
-        p{
-            padding-top: 15px;
-            color: $white;
-            font-size: 15px;
-            text-align: center;
-    
-            @media(min-width: 1199px){
-                text-align: start;
-                font-size: 18px;  
-            }
-        }
-
         
     }
 
@@ -238,14 +221,13 @@
         }
 
         a{
-            border: 2px solid $Bluish_Purple;
+            border: 2px solid $Shiraz;
             margin-top: 15px;
-            background-color:$Bluish_Purple;
-            font-family: Poppins-Bold;
+            background-color:$Shiraz;
+            font-family: Segoe-Bold;
             font-weight: bold;
             padding: 15px;
             color:$white;
-            border-radius: 20px;
             text-align: center;
 
             @media(min-width:300px){
@@ -266,8 +248,8 @@
 
         a:hover{
             background-color:$white ;
-            color: $Bluish_Purple;
-            border: 2px solid $Bluish_Purple;
+            color: $Shiraz;
+            border: 2px solid $Shiraz;
         }
     }
 

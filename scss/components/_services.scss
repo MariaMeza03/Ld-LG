@@ -46,17 +46,73 @@
                 gap: 15px;
     
                 h1{
-                    color: $Bluish_Purple_two;
+                    color: $black;
                     font-size: 20px;
                     text-align: center;
-                    font-family: Poppins-Bold;
+                    font-family: Segoe-Bold;
             
                     @media(min-width:1199px){
                         font-size: 25px;
                     }
     
                 }
+
+                p{
+                    text-align: center;
+                    color: $black;
+                    font-size: 15px;
+                    padding: 3px;
+                    
+            
+                    @media(min-width: 1199px){
+                        font-size: 18px;
+                    }
+                }
+    
+                span{
+                    font-family: Segoe-Bold;
+                }
             }
+        }
+    }
+
+    &__button{
+        @include flex-center-center;
+
+        @media(min-width:1199px){
+            @include flex-center-end;
+        }
+
+        a{
+            border: 2px solid $Shiraz;
+            margin-top: 30px;
+            background-color:$Shiraz;
+            font-family: Segoe-Bold;
+            font-weight: bold;
+            padding: 15px;
+            color:$white;
+            text-align: center;
+
+            @media(min-width:300px){
+                font-size: 20px;         
+            }
+
+            @media(min-width:768px){
+                padding: 15px 80px ;
+                font-size: 25px;
+                
+            }
+
+            @media(min-width:1199px){
+                margin-top: 60px;
+            }
+ 
+        }
+
+        a:hover{
+            background-color:$white ;
+            color: $Shiraz;
+            border: 2px solid $Shiraz;
         }
     }
 
