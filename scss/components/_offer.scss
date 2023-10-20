@@ -50,7 +50,7 @@
     &__content{
         @include flex-center-center;
         flex-direction: column;
-        padding: 30px;
+        padding: 30px 0;
         border-radius: 20px;
         width: 100%;
 
@@ -109,16 +109,11 @@
     
             &__item{
                 height: auto;
-                @include flex-center-end;
+                @include flex-center-between;
                 flex-direction: column;
                 background-color: $harp;
                 padding: 20px;
                 border-radius: 20px;
-    
-                @media(min-width: 1199px){
-                    @include flex-center-end;
-                }
-
     
                 &__text{
                     width: 100%;    
@@ -129,7 +124,7 @@
                         font-family: Segoe-Bold;
                         font-size: 15px;
                         text-align: center;
-                        padding: 15px;
+                        padding-top: 15px ;
                 
                         @media(min-width: 1199px){
                             font-size: 18px;
@@ -144,9 +139,13 @@
         }
     
         &__carrousel{
-            width: 80%;
+            width: 70%;
             padding: 30px 0 0 0;
             margin: auto;
+
+            @media(min-width: 568px){
+                width: 100%;
+            }
 
             @media(min-width: 1199px){
                 display: none;
@@ -158,9 +157,13 @@
                 @include flex-center-between;
                 flex-direction: column;
                 background-color: $harp;
-                padding: 20px;
+                padding: 10px;
                 border-radius: 20px;
-                height: 350px;
+                height: auto;
+
+                @media(min-width: 992px){
+                    padding: 20px;
+                }
     
                 &__text{
                     width: 100%;
@@ -175,31 +178,29 @@
                         padding-bottom: 10px;
 
                         @media(min-width: 678px){
-                            font-size: 18px;
+                            font-size: 16px;
                         }
                 
                         @media(min-width: 1199px){
-                            font-size: 25px;
+                            font-size: 18px;
                         }
                     }
                 }
 
                 &__imagen{
                     width: 100%;
-                    height: 147px;
-
-                    @media(min-width: 400px){
-                        height: 200px;
-                    }
+                    height: 180px;
+                    margin: auto;
 
                     @media(min-width: 992px){
-                        width: 70%;
+                        width: 75%;
                         height: 250px;
                     }
 
-                    @media(min-width: 1199px){
+                    img{
                         width: 100%;
                     }
+                    
                     
                 }
             }
@@ -226,12 +227,12 @@
             text-align: center;
 
             @media(min-width:300px){
-                font-size: 20px;         
+                font-size: 15px;         
             }
 
             @media(min-width:768px){
                 padding: 15px 80px ;
-                font-size: 25px;
+                font-size: 18px;
                 
             }
 
@@ -258,7 +259,7 @@
     overflow: hidden;
 
 		.swiper-slide{
-            width: 50% !important;
+            width: 100% !important;
             height: 100%;
             /* Center slide text vertically */
             display: -webkit-box;
@@ -272,9 +273,14 @@
             -webkit-align-items: center; 
             @include flex-center-center;
 
-            @media(max-width: 568px){
-                width: 100% !important;
+            @media(min-width: 568px){
+                width: 33.33% !important;
             }
+
+            @media(min-width: 992px){
+                width: 50% !important;
+            }
+
 
 		}
 

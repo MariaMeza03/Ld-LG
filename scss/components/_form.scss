@@ -9,7 +9,7 @@
     .container{
         @include flex-center-center;
         flex-direction: column;
-        gap: 15px;
+        gap: 50px;
 
         @media(min-width:1199px){
             display: grid;
@@ -40,7 +40,11 @@
             width: 100%;
             @include flex-center-center;
             flex-direction: column;
-            gap: 30px;
+            gap: 15px;
+
+            @media(min-width:1199px){
+                gap: 30px;
+            }
 
             h1{
                 color: $Shiraz;
