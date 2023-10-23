@@ -17,7 +17,43 @@
             gap: 120px;
 		}
     }
+    
+    &__title{
+        @include flex-center-center;
+        flex-direction: column;
+        padding-bottom: 30px;
 
+        h1{
+            color: $Shiraz;
+            font-size: 20px;
+            text-align: center;
+            font-family: Segoe-Bold;
+            
+            @media(min-width:768px){
+                font-size: 25px;
+            }
+    
+            @media(min-width:1199px){
+                font-size: 30px;
+            }
+            
+            @media(min-width:1700px){
+                font-size: 35px;
+            }
+        }
+
+        p{
+            padding-top: 15px;
+            color: black;
+            font-size: 15px;
+            text-align: center;
+    
+            @media(min-width: 1199px){
+                font-size: 18px;  
+            }
+        }
+
+    }
 
     &__text{
         width: 80%;
