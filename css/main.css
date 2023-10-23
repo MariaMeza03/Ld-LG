@@ -834,7 +834,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-image: url("../../img/banner-guinda.webp");
+    background-image: url("../img/banner-guinda.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -901,7 +901,7 @@
   padding: 30px 0 30px 0; }
   @media (min-width: 1199px) {
     .domestic {
-      background-image: url("../../img/banner-contacto-lg.webp");
+      background-image: url("../img/banner-contacto-lg.webp");
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
