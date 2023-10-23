@@ -1125,7 +1125,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr); }
   .thanks h2 {
-    color: #5F3EEF;
+    color: #A40033;
     font-size: 20px;
     text-align: center;
     font-family: Segoe-Regular;
@@ -1138,7 +1138,7 @@
         font-size: 30px; } }
   .thanks p {
     padding-top: 15px;
-    color: #32236F;
+    color: black;
     font-family: Segoe-Regular;
     font-size: 15px;
     text-align: center; }
@@ -1151,29 +1151,24 @@
     align-items: center;
     justify-content: center; }
     .thanks__button a {
-      border: 2px solid #6A49F2;
+      border: 2px solid #A40033;
       margin-top: 30px;
-      background-color: #6A49F2;
+      background-color: #A40033;
       font-family: Segoe-Bold;
       padding: 15px 30px;
       color: white;
       font-size: 15px;
-      border-radius: 28px;
       text-align: center; }
       @media (min-width: 300px) {
         .thanks__button a {
-          font-size: 20px; } }
+          font-size: 16px; } }
       @media (min-width: 768px) {
         .thanks__button a {
-          font-size: 25px; } }
+          font-size: 18px; } }
     .thanks__button a:hover {
       background-color: white;
-      color: #6A49F2;
-      border: 2px solid #6A49F2; }
-  .thanks a:hover {
-    background-color: white;
-    color: #6A49F2;
-    border: 2px solid #6A49F2; }
+      color: #A40033;
+      border: 2px solid #A40033; }
 
 .banner_privacidad {
   width: 100%;
