@@ -1059,7 +1059,7 @@
       height: 80px; }
       @media (min-width: 1199px) {
         .form__text__imagen--one {
-          width: 120px;
+          width: 110px;
           height: 150px; } }
     .form__text__imagen--two {
       margin: auto;
@@ -1071,7 +1071,7 @@
           height: 150px; } }
     .form__text__imagen--three {
       margin: auto;
-      width: 150px;
+      width: 130px;
       height: 80px; }
       @media (min-width: 1199px) {
         .form__text__imagen--three {
