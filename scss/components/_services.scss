@@ -13,6 +13,27 @@
         flex-direction: column;     
     }
 
+    h1.title{
+        color: $Shiraz;
+        font-size: 20px;
+        text-align: center;
+        font-family: Segoe-Bold;
+        padding-bottom: 15px;
+        
+        @media(min-width:768px){
+            font-size: 25px;
+        }
+
+        @media(min-width:1199px){
+            font-size: 30px;
+            padding-bottom: 30px;
+        }
+        
+        @media(min-width:1700px){
+            font-size: 35px;
+        }
+    }
+
 
     &__grid{
         display: grid;

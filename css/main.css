@@ -402,6 +402,22 @@
     align-items: center;
     justify-content: center;
     flex-direction: column; }
+  .services h1.title {
+    color: #A40033;
+    font-size: 20px;
+    text-align: center;
+    font-family: Segoe-Bold;
+    padding-bottom: 15px; }
+    @media (min-width: 768px) {
+      .services h1.title {
+        font-size: 25px; } }
+    @media (min-width: 1199px) {
+      .services h1.title {
+        font-size: 30px;
+        padding-bottom: 30px; } }
+    @media (min-width: 1700px) {
+      .services h1.title {
+        font-size: 35px; } }
   .services__grid {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -1049,6 +1065,34 @@
     @media (min-width: 1199px) {
       .form .container {
         gap: 120px; } }
+  .form__title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 30px; }
+    .form__title h1 {
+      color: #A40033;
+      font-size: 20px;
+      text-align: center;
+      font-family: Segoe-Bold; }
+      @media (min-width: 768px) {
+        .form__title h1 {
+          font-size: 25px; } }
+      @media (min-width: 1199px) {
+        .form__title h1 {
+          font-size: 30px; } }
+      @media (min-width: 1700px) {
+        .form__title h1 {
+          font-size: 35px; } }
+    .form__title p {
+      padding-top: 15px;
+      color: black;
+      font-size: 15px;
+      text-align: center; }
+      @media (min-width: 1199px) {
+        .form__title p {
+          font-size: 18px; } }
   .form__text {
     width: 80%;
     margin: auto;
