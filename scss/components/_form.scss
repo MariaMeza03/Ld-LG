@@ -11,9 +11,18 @@
         flex-direction: column;
         gap: 50px;
 
-        @media(min-width:1199px){
+        @media(min-width:678px){
             display: grid;
             grid-template-columns: repeat(2, 1fr);
+            gap: 40px;
+		}
+
+        @media(min-width:992px){
+            gap: 60px;
+		}
+
+
+        @media(min-width:1199px){
             gap: 120px;
 		}
     }
@@ -26,9 +35,15 @@
         background-color: $white;
         box-shadow:rgba(0, 0, 0, 0.35) 0px 5px 15px, white 16px 16px 0px -4px, $Shiraz 17px 17px, white 20px -20px 0px -3px;
         padding: 20px;
+        min-height: 270px;
 
-        @media(min-width:678px){
+        @media(min-width:778px){
+            min-height: 210px;
+        }
+
+        @media(min-width:1199px){
             width: 70%;
+            height: 320px;
         }
 
         &__imagen{
@@ -68,11 +83,11 @@
 
             &--four{
                 margin: auto;
-                width: 120px;
+                width: 100px;
                 height: 80px;
 
                 @media(min-width:1199px){
-                    width: 248px;
+                    width: 180px;
                     height: 150px; 
                 }
             }
