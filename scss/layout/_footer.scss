@@ -37,17 +37,19 @@
 		}
 		
 		h1{
-		color: white;
-		line-height:25px;
-		font-size: 15px;
-		font-weight: bold;
-		text-align: center;
-
-		@media(min-width:1199px){
-			font-size: 18px;
-			text-align: start;
-		}
-		}
+			color: white;
+			line-height:25px;
+			font-size: 13px;
+			font-weight: 300;
+			text-align: center;
+			line-height: 20px;
+	
+			@media(min-width:1199px){
+				font-size: 15px;
+				text-align: start;
+	
+			}
+			}
 	}
 
 

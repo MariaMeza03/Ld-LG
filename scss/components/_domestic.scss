@@ -5,8 +5,13 @@
     /*margin-top: 80px;*/
     @include flex-center-center;
     padding: 30px 0 30px 0;
+    
 
     @media(min-width:1199px){
+        background-image: url('../../img/banner-contacto-lg.webp');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
         height: auto;
         padding: 60px 0 60px 0;
     }
@@ -25,16 +30,26 @@
     }
 
     &__text{
-        width: 100%;
+        width: 90%;
         @include flex-center-center;
         flex-direction: column;
+        padding: 30px;
+        background-color: $white;
+        box-shadow:rgba(0, 0, 0, 0.35) 0px 5px 15px, white -19px 16px 0px -4px, $Shiraz -19px 17px;
+        border-radius: 5px;
+
+        @media(min-width:678px){
+            width: 100%;
+        }
 
         @media(min-width:1199px){ //*table
             @include flex-start-center;
+            position: relative;
+            left: 55px;
         }
         
         h1{
-            color: $Bluish_Purple;
+            color: $Shiraz;
             font-size: 20px;
             font-family: Segoe-Bold;
             text-align: center;
@@ -73,7 +88,7 @@
                 }
 
                 label{
-                    color: $Bluish_Purple;
+                    color: $black;
                     font-family:Segoe-Bold;
                     font-size: 15px;
         
@@ -106,15 +121,14 @@
 
                     button{
                         width: 100%;
-                        border: 2px solid $Bluish_Purple;
+                        border: 2px solid $Shiraz;
                         margin-top: 10px;
-                        background-color:$Bluish_Purple;
+                        background-color:$Shiraz;
                         font-family: Segoe-Bold;
                         padding: 15px ;
                         color:$white;
                         font-size: 15px;
                         text-align: center;
-                        border-radius: 15px;
 
                         @media(min-width: 1199px){
                             font-size: 18px;
@@ -123,8 +137,8 @@
             
                     button:hover{
                         background-color:$white ;
-                        color: $Bluish_Purple;
-                        border: 2px solid $Bluish_Purple;
+                        color: $Shiraz;
+                        border: 2px solid $Shiraz;
                     }
                 }
             }
@@ -137,11 +151,17 @@
     &__imagen{
         @include flex-center-start;
         margin: auto;
-        width: 70%;
+        width: 90%;
+
+        @media(min-width:678px){
+            width: 100%;
+        }
 
 
         @media(min-width: 1199px){
-            width: 100%;
+            display: none;
+            width: 125%;
+            height: 100%;
             height:auto;
         }
     }
