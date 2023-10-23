@@ -869,7 +869,7 @@
       .the_best__content__grid__item {
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: flex-start;
         flex-direction: column;
         gap: 15px; }
         .the_best__content__grid__item__imagen {

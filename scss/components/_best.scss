@@ -80,7 +80,7 @@
             }
     
             &__item{
-                @include flex-center-center;
+                @include flex-center-start;
                 flex-direction: column;
                 gap: 15px;
     
