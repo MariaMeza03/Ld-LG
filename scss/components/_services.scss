@@ -52,10 +52,11 @@
             gap: 15px;
 
             &__imagen{
-                height: 91px;
+                height: 120px;
                 margin: auto;
 
-                @media(min-width: 768px){
+                @media(min-width: 1119px){
+                    height: 240px;
                     @include flex-center-center;
                     margin: 0;
                 }
@@ -71,6 +72,7 @@
                     font-size: 20px;
                     text-align: center;
                     font-family: Segoe-Bold;
+                    color:$Shiraz;
             
                     @media(min-width:1199px){
                         font-size: 25px;
@@ -83,7 +85,7 @@
                     color: $black;
                     font-size: 15px;
                     padding: 3px;
-                    
+                    color:$baltic_sea_two;
             
                     @media(min-width: 1199px){
                         font-size: 18px;

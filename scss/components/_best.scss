@@ -54,18 +54,9 @@
     }
 
     &__content{
-        padding: 30px;
         @include flex-center-center;
         flex-direction: column;  
-        background-image: url('../img/banner-guinda.webp');
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
         border-radius: 5px;
-
-        @media(min-width:1199px){
-             padding: 60px;
-        }
 
 
         &__grid{
@@ -85,10 +76,11 @@
                 gap: 15px;
     
                 &__imagen{
-                    height: 91px;
+                    height: 120px;
                     margin: auto;
     
-                    @media(min-width: 768px){
+                    @media(min-width: 1199px){
+                        height: 240px;
                         @include flex-center-center;
                         margin: 0;
                     }
@@ -100,7 +92,7 @@
                     gap: 15px;
         
                     h1{
-                        color: $white;
+                        color: $Shiraz;
                         font-size: 20px;
                         text-align: center;
                         font-family: Segoe-Bold;
@@ -113,7 +105,7 @@
     
                     p{
                         text-align: center;
-                        color: $white;
+                        color: $black;
                         font-size: 15px;
                         padding: 3px;
                         
