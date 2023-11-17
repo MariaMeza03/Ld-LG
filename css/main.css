@@ -496,7 +496,8 @@
       font-weight: bold;
       padding: 15px;
       color: white;
-      text-align: center; }
+      text-align: center;
+      border-radius: 5px; }
       @media (min-width: 300px) {
         .services__button a {
           font-size: 16px; } }
@@ -516,6 +517,9 @@
   width: 100%;
   height: auto;
   padding: 30px 0; }
+  @media (min-width: 1199px) {
+    .solution {
+      padding: 60px 0; } }
   .solution .container {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -577,7 +581,8 @@
         font-weight: bold;
         padding: 15px;
         color: white;
-        text-align: center; }
+        text-align: center;
+        border-radius: 5px; }
         @media (min-width: 300px) {
           .solution__text__button a {
             font-size: 16px; } }
@@ -776,7 +781,8 @@
       font-weight: bold;
       padding: 15px;
       color: white;
-      text-align: center; }
+      text-align: center;
+      border-radius: 5px; }
       @media (min-width: 300px) {
         .offer__button a {
           font-size: 15px; } }
@@ -820,10 +826,10 @@
   width: 100%;
   position: relative;
   height: auto;
-  padding: 30px 0 30px 0; }
+  padding: 30px 0; }
   @media (min-width: 1199px) {
     .the_best {
-      padding: 60px 0 60px 0; } }
+      padding: 60px 0; } }
   .the_best .container {
     display: flex;
     align-items: center;
@@ -921,7 +927,10 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 30px 0 30px 0; }
+  padding: 30px 0; }
+  @media (min-width: 1199px) {
+    .domestic {
+      padding: 60px 0; } }
   .domestic .container {
     display: flex;
     align-items: center;
@@ -1013,7 +1022,8 @@
           padding: 15px;
           color: white;
           font-size: 15px;
-          text-align: center; }
+          text-align: center;
+          border-radius: 5px; }
           @media (min-width: 1199px) {
             .domestic__text__inputs__input__button button {
               font-size: 18px; } }
