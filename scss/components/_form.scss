@@ -15,10 +15,31 @@
         flex-direction: column;
     }
 
+    h1.title{
+        color: $Shiraz;
+        font-size: 20px;
+        text-align: center;
+        font-family: Segoe-Bold;
+        padding-bottom: 15px;
+        
+        @media(min-width:768px){
+            font-size: 25px;
+        }
+
+        @media(min-width:1199px){
+            font-size: 30px;
+            padding-bottom: 30px;
+        }
+        
+        @media(min-width:1700px){
+            font-size: 35px;
+        }
+    }
+
     &__content{
         @include flex-center-center;
         flex-direction:column-reverse;
-        gap: 15px;
+        gap: 60px;
 
         @media(min-width:1199px){
             display: grid;
@@ -36,7 +57,11 @@
             margin: auto;
             border-radius: 10px;
             background-color: $white;
-            padding: 20px;
+            
+
+            @media(min-width:1199px){
+                padding: 20px;
+            }
 
             &__text{
                 position: relative;
@@ -47,10 +72,10 @@
                 gap: 30px;
 
                 h1{
-                    color: $Bluish_Purple;
+                    color: $Shiraz;
                     font-size: 25px;
                     padding: 3px;
-                    font-family: Poppins-Bold;
+                    font-family:  Segoe-Bold;
             
                     @media(min-width: 1199px){
                         font-size: 35px;
@@ -58,19 +83,15 @@
                 }
 
                 &__grid{
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    gap:10px;
+                    display: grid;
+                    grid-template-columns: repeat(5, 1fr);
 
                     &__text{
-                        max-width: 70%;
+                        grid-column: 2/6;
 
-                        @media(min-width:1199px){
-                            width: 500px;
-                        }
+                       
                         p{
-                            color: $Meteorite;
+                            color: $baltic_sea_two;
                             font-size: 15px;
                             padding: 3px;
                             
@@ -81,16 +102,16 @@
                         }
             
                         span{
-                            font-family: Poppins-Bold;
+                            font-family:  Segoe-Bold;
+                            color: $Shiraz;
                         }
                     }
 
                     &__imagen{
-                        height: 20px;
-                        width: 20px;
-                        @media(min-width:1199px){
-                            height: 40px;
-                        }
+                        width: 90%;
+                        margin-bottom: auto;
+                        
+                        
 
                     }
         
