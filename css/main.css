@@ -274,32 +274,43 @@
   width: 100%;
   position: relative;
   height: auto;
-  margin-top: 80px;
+  margin-top: 120px;
   display: flex;
   align-items: center;
-  justify-content: center; }
-  .hero .container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column; }
-    @media (min-width: 1199px) {
-      .hero .container {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr); } }
+  justify-content: center;
+  flex-direction: column;
+  background-image: url("../img/img-ban.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 30px 0; }
+  @media (min-width: 1199px) {
+    .hero {
+      margin-top: 80px;
+      background-image: url("../img/banner-lg-2.webp");
+      background-position: top;
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      padding: 150px 0; } }
   .hero__text {
-    width: 100%;
+    width: 90%;
+    background-color: #A40033;
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column; }
+    flex-direction: column;
+    padding: 20px; }
     @media (min-width: 1199px) {
       .hero__text {
+        margin-left: auto;
         display: flex;
         align-items: flex-end;
-        justify-content: center; } }
+        justify-content: center;
+        padding: 52px 20% 52px 74px; } }
     .hero__text h1 {
-      color: black;
+      color: white;
       font-size: 25px;
       font-weight: bold;
       text-align: center;
@@ -311,26 +322,25 @@
           line-height: 50px; } }
       @media (min-width: 1199px) {
         .hero__text h1 {
-          text-align: start;
-          font-size: 60px; } }
+          text-align: start; } }
       @media (min-width: 1700px) {
         .hero__text h1 {
           line-height: 72px;
-          font-size: 66px; } }
+          font-size: 60px; } }
     .hero__text span {
       font-size: 25px;
       font-weight: bold;
       text-align: center;
       font-family: Segoe-Bold;
       line-height: 32px;
-      color: #A40033; }
+      color: white; }
       @media (min-width: 768px) {
         .hero__text span {
           font-size: 45px;
           line-height: 50px; } }
       @media (min-width: 1199px) {
         .hero__text span {
-          text-align: start;
+          text-align: end;
           font-size: 60px; } }
       @media (min-width: 1700px) {
         .hero__text span {
@@ -338,7 +348,7 @@
           font-size: 66px; } }
     .hero__text p {
       padding-top: 25px;
-      color: black;
+      color: white;
       font-size: 20px;
       text-align: center;
       line-height: 25px; }
@@ -363,12 +373,13 @@
         width: 100%;
         border: 2px solid #A40033;
         margin-top: 30px;
-        background-color: #A40033;
+        background-color: white;
         font-family: Segoe-Bold;
         padding: 20px 30px;
-        color: white;
+        color: #6B6B6B;
         font-size: 15px;
-        text-align: center; }
+        text-align: center;
+        border-radius: 20px; }
         @media (min-width: 300px) {
           .hero__text__button a {
             font-size: 16px; } }
@@ -530,7 +541,7 @@
       .solution h1.title {
         font-size: 35px; } }
   .solution p.subtitle {
-    color: black;
+    color: #6B6B6B;
     font-size: 15px;
     text-align: center; }
     @media (min-width: 1199px) {
@@ -840,7 +851,7 @@
           font-size: 35px; } }
     .the_best__title p {
       padding-top: 15px;
-      color: black;
+      color: #6B6B6B;
       font-size: 15px;
       text-align: center; }
       @media (min-width: 1199px) {
@@ -893,7 +904,7 @@
                 font-size: 25px; } }
           .the_best__content__grid__item__text p {
             text-align: center;
-            color: black;
+            color: #6B6B6B;
             font-size: 15px;
             padding: 3px; }
             @media (min-width: 1199px) {
@@ -955,7 +966,7 @@
           font-size: 35px; } }
     .domestic__text p {
       padding-top: 15px;
-      color: black;
+      color: #6B6B6B;
       font-size: 15px;
       text-align: center; }
       @media (min-width: 1199px) {
