@@ -1051,7 +1051,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column; }
+    flex-direction: column-reverse;
+    gap: 50px; }
+    @media (min-width: 1199px) {
+      .form .container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px; } }
   .form h1.title {
     color: #A40033;
     font-size: 20px;
@@ -1068,62 +1074,49 @@
     @media (min-width: 1700px) {
       .form h1.title {
         font-size: 35px; } }
-  .form__content {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column-reverse;
-    gap: 60px; }
+  .form__imagen {
+    width: 100%; }
+  .form__text {
+    width: 100%;
+    margin: auto;
+    border-radius: 10px;
+    background-color: white; }
     @media (min-width: 1199px) {
-      .form__content {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 30px; } }
-    .form__content__imagen {
-      width: 100%; }
-    .form__content__text {
+      .form__text {
+        padding: 20px; } }
+    .form__text__text {
       width: 100%;
-      margin: auto;
-      border-radius: 10px;
-      background-color: white; }
-      @media (min-width: 1199px) {
-        .form__content__text {
-          padding: 20px; } }
-      .form__content__text__text {
-        position: relative;
-        top: -40px;
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        gap: 30px; }
-        .form__content__text__text h1 {
-          color: #A40033;
-          font-size: 25px;
-          padding: 3px;
-          font-family: Segoe-Bold; }
-          @media (min-width: 1199px) {
-            .form__content__text__text h1 {
-              font-size: 35px; } }
-        .form__content__text__text__grid {
-          display: grid;
-          grid-template-columns: repeat(5, 1fr); }
-          .form__content__text__text__grid__text {
-            grid-column: 2/6; }
-            .form__content__text__text__grid__text p {
-              color: #6B6B6B;
-              font-size: 15px;
-              padding: 3px; }
-              @media (min-width: 1199px) {
-                .form__content__text__text__grid__text p {
-                  font-size: 18px; } }
-            .form__content__text__text__grid__text span {
-              font-family: Segoe-Bold;
-              color: #A40033; }
-          .form__content__text__text__grid__imagen {
-            width: 90%;
-            margin-bottom: auto; }
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      gap: 30px; }
+      .form__text__text h1 {
+        color: #A40033;
+        font-size: 25px;
+        padding: 3px;
+        font-family: Segoe-Bold; }
+        @media (min-width: 1199px) {
+          .form__text__text h1 {
+            font-size: 35px; } }
+      .form__text__text__grid {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr); }
+        .form__text__text__grid__text {
+          grid-column: 2/6; }
+          .form__text__text__grid__text p {
+            color: #6B6B6B;
+            font-size: 15px;
+            padding: 3px; }
+            @media (min-width: 1199px) {
+              .form__text__text__grid__text p {
+                font-size: 18px; } }
+          .form__text__text__grid__text span {
+            font-family: Segoe-Bold;
+            color: #A40033; }
+        .form__text__text__grid__imagen {
+          width: 90%;
+          margin-bottom: auto; }
 
 .thanks {
   width: 100%;

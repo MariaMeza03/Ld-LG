@@ -12,7 +12,14 @@
 
     .container{
         @include flex-center-center;
-        flex-direction: column;
+        flex-direction:column-reverse;
+        gap: 50px;
+
+        @media(min-width:1199px){
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 30px;
+		}
     }
 
     h1.title{
@@ -36,20 +43,8 @@
         }
     }
 
-    &__content{
-        @include flex-center-center;
-        flex-direction:column-reverse;
-        gap: 60px;
-
-        @media(min-width:1199px){
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 30px;
-		}
-
-
         &__imagen{
-        width: 100%;
+            width: 100%;
         }
 
         &__text{
@@ -64,8 +59,6 @@
             }
 
             &__text{
-                position: relative;
-                top:-40px;
                 width: 100%;
                 @include flex-center-center;
                 flex-direction: column;
@@ -122,7 +115,5 @@
             }
 
         }
-    }
-
     
 }
